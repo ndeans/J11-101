@@ -7,6 +7,7 @@
     <groupId>us.deans.javastuff</groupId>
     <artifactId>J11-101</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
