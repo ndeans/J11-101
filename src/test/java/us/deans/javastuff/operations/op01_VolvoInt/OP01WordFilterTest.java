@@ -1,8 +1,8 @@
-package us.deans.javastuff.operations.op01;
+package us.deans.javastuff.operations.op01_VolvoInt;
 
 import org.junit.Test;
 
-public class OP01_WordFilter_Test {
+public class OP01WordFilterTest {
 
     @Test
     public void testOP01_WordFilter() {

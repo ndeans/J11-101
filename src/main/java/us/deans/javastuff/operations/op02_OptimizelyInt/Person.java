@@ -1,4 +1,4 @@
-package us.deans.javastuff.operations.op02_Optimizely;
+package us.deans.javastuff.operations.op02_OptimizelyInt;
 
 public class Person {
 

@@ -1,6 +1,6 @@
-package us.deans.javastuff.operations.op01;
+package us.deans.javastuff.operations.op01_VolvoInt;
 
-import us.deans.javastuff.base.BaseOperation;
+// import us.deans.javastuff.base.BaseOperation;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,9 +14,9 @@ import java.util.Set;
  *  that start with "s"
  *
  */
-public class OP01_WordFilter extends BaseOperation {
+public class OP01_WordFilter extends us.deans.javastuff.base.BaseOperation {
 
-    File file = new File("src/main/resources/lorem_ipsum.txt");
+    File file = new File("src/main/resources/multiOps/lorem_ipsum.txt");
     Set<String> s_words = new HashSet<>();
 
     @Override

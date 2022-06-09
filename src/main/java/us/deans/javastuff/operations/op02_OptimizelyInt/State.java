@@ -1,11 +1,11 @@
-package us.deans.javastuff.operations.op02_Optimizely;
+package us.deans.javastuff.operations.op02_OptimizelyInt;
 
 public class State {
 
-    private String abbrv;
-    private int population;
-    private int avgage;
-    private int avgageInRange;
+    private final String abbrv;
+    private final int population;
+    private final int avgage;
+    private final int avgageInRange;
 
     public State(String abbrv, int population, int avgage, int avgageInRange) {
         this.abbrv = abbrv;
@@ -29,4 +29,5 @@ public class State {
     public int getAvgageInRange() {
         return avgageInRange;
     }
+
 }

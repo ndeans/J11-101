@@ -1,4 +1,4 @@
-package us.deans.javastuff.operations.op02_Optimizely;
+package us.deans.javastuff.operations.op02_OptimizelyInt;
 
 import us.deans.javastuff.base.BaseOperation;
 
@@ -14,9 +14,6 @@ import java.util.stream.Collectors;
  *
  */
 public class OP02_IntOptimizely extends BaseOperation {
-
-    private List<State> stateData;
-    private double averageAgeRound1;
 
     @Override
     public void start() {
@@ -49,8 +46,6 @@ public class OP02_IntOptimizely extends BaseOperation {
     }
 
     protected double getAverageAgeAll(List<Person> people) {
-
-
 
         // double averageAgeRound1 = total average age
         double averageAge = people.stream().collect(Collectors.averagingDouble(Person::getAge));
@@ -86,6 +81,8 @@ public class OP02_IntOptimizely extends BaseOperation {
             int averageAgeInRangeInt = (int) Math.ceil(averageAgeInRange);
 
             // System.out.println("Average Age for " +  state + ": " + "(int) " + averageAgeInt + ", (int) " + averageAgeInRangeInt);
+            State state1 = new State("1",1,1,1);
+            stateData.add(state1);
 
             stateData.add(new State(state, countInt, averageAgeInt, averageAgeInRangeInt));
 
@@ -95,9 +92,6 @@ public class OP02_IntOptimizely extends BaseOperation {
     }
 
     protected void report(List<State> stateData, double averageAgeRound1) {
-
-        this.stateData = stateData;
-        this.averageAgeRound1 = averageAgeRound1;
 
         System.out.println("\nReport:\n");
 
