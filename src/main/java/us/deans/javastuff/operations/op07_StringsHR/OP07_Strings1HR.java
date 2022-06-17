@@ -7,12 +7,12 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class OP07_StringsHR extends BaseOperation {
+public class OP07_Strings1HR extends BaseOperation {
 
     private String A;
     private String B;
 
-    public OP07_StringsHR( String A, String B) {
+    public OP07_Strings1HR(String A, String B) {
         this.A = A;
         this.B = B;
     }

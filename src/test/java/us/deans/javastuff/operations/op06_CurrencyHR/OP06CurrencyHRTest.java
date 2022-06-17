@@ -1,7 +1,6 @@
-package us.deans.javastuff.operations.op06_CurrencyHRTest;
+package us.deans.javastuff.operations.op06_CurrencyHR;
 
 import org.junit.Test;
-import us.deans.javastuff.operations.op06_CurrencyHR.OP06_CurrencyHR;
 
 public class OP06CurrencyHRTest {
 
