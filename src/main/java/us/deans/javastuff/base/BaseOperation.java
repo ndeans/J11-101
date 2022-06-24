@@ -1,6 +1,6 @@
 package us.deans.javastuff.base;
 
-public class BaseOperation {
+public abstract class BaseOperation {
 
     public void start() {
 

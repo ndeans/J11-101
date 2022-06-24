@@ -4,6 +4,7 @@ import us.deans.javastuff.operations.op01_VolvoInt.*;
 import us.deans.javastuff.operations.op02_OptimizelyInt.*;
 import us.deans.javastuff.operations.op04_GoDaddyInt.OP04_GoDaddy_LookUp;
 import us.deans.javastuff.operations.op04_GoDaddyInt.OP04_GoDaddy_NestedLoop;
+import us.deans.javastuff.operations.op09_AnagramHR.OP09_Anagram;
 
 public class Application {
 
@@ -13,6 +14,8 @@ public class Application {
         new OP02_IntOptimizely().start();
         new OP04_GoDaddy_LookUp().start();
         new OP04_GoDaddy_NestedLoop().start();
+
+        new OP09_Anagram().start();
 
     }
 
